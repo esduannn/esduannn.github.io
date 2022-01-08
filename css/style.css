@@ -152,7 +152,11 @@ p{
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     padding-left: 15px;
-    
+}
+
+#navbar a:hover{
+    text-decoration: underline;
+    color: #ea9a9b;
 }
 
 .home{
@@ -160,5 +164,5 @@ p{
 }
 
 #audio{
-    margin: 0px 550px;
+    margin-left: 85px;
 }
