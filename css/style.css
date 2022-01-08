@@ -15,6 +15,10 @@
 	/* ↑ Pixel size */
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-size: 30px 30px;
     background-image:
@@ -157,6 +161,10 @@ p{
 #navbar a:hover{
     text-decoration: underline;
     color: #ea9a9b;
+}
+
+a{
+    cursor: url(../images/pixil-paw-point.png), pointer;
 }
 
 .home{
