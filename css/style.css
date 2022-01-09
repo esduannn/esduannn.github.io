@@ -1,6 +1,14 @@
 :root {
+    --dark-gray: #161e21;
+	/* ↑ Background color */
+
+    --light-gray: #253237;
+	/* ↑ Background grid color */
+
+    --darkest-pink: #ea9a9b;
+
 	--pixel-bg: #ea9a9b;
-	/* ↑ Inner background color */
+	/* ↑ Inner background border color */
 	
 	--pixel-border: black;
 	/* ↑ Inner border color */
@@ -15,37 +23,38 @@
 	/* ↑ Pixel size */
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-size: 30px 30px;
     background-image:
-    linear-gradient(to right, #253237 .5px, transparent .5px),
-    linear-gradient(to bottom, #253237 .5px, transparent .5px);
-    background-color: #161e21;
+    linear-gradient(to right, var(--light-gray) .5px, transparent .5px),
+    linear-gradient(to bottom, var(--light-gray) .5px, transparent .5px);
+    background-color: var(--dark-gray);
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     line-height: 1.6em;
 }
 
-h1{
+h1 {
     font-size: 75px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 4px;
 }
 
-h3{
+h3 {
     font-family: 'Courier New', Courier, monospace;
     margin-left: 6px;
+	letter-spacing: 3px;
 }
 
-p{
+p {
     margin-left: 6px;  
 }
 
-.container{
+.container {
     margin: 90px;
     padding: 5px 30px;
 	background: var(--pixel-bg);
@@ -109,7 +118,7 @@ p{
 		0 calc(var(--pixel) * 15) 0 calc(var(--pixel) * -6) var(--pixel-border-3);
 }
 
-#x{
+#x {
     float: right;
     height: auto; 
     width: auto; 
@@ -119,7 +128,7 @@ p{
     margin-top: -5px;
 }
 
-#cat{
+#cat {
     float: left;
     height: auto; 
     width: auto; 
@@ -129,7 +138,7 @@ p{
     margin-top: -19px;
 }
 
-#strawberry{
+#strawberry {
     float: left;
     height: auto; 
     width: auto; 
@@ -140,37 +149,59 @@ p{
     margin-right: 10px;
 }
 
-#navbar ul{
+#navbar ul {
     list-style: none;
     text-align: right;
     margin-right: 85px;
     margin-bottom: -55px;
 }
 
-#navbar li{
+#navbar li {
     display: inline;
 }
 
-#navbar a{
+#navbar a {
     color: white;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
     padding-left: 15px;
 }
 
-#navbar a:hover{
+#navbar a:hover {
     text-decoration: underline;
-    color: #ea9a9b;
+    color: var(--darkest-pink);
 }
 
 a{
-    cursor: url(../images/pixil-paw-point.png), pointer;
+    cursor: url(../images/pixil-paw-point-s.png), pointer;
 }
-
-.home{
+/* 
+.home {
     margin: 0;
+} */
+
+#me-photo {
+	height: 250px;
+    width: auto;
+    border: 5px dotted;
+    border-radius: 35px;
+	float: left;
+	margin-top: 10px;
 }
 
-#audio{
+#about-text {
+	margin-left: 255px;
+}
+
+#socials {
+    writing-mode: vertical-rl;
+    /* text-orientation: sideways; */
+}
+
+#vertical-bar {
+    border: 1px;
+}
+
+#audio {
     margin-left: 85px;
 }
