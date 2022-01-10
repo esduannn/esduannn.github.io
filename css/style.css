@@ -42,6 +42,10 @@ body {
     line-height: 1.6em;
 }
 
+.italic {
+	font-style: italic;
+}
+
 h1 {
     font-size: 75px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -53,6 +57,7 @@ h3 {
     font-family: 'Courier New', Courier, monospace;
     margin-left: 6px;
 	letter-spacing: 3px;
+	text-shadow: 1px 1px 1px rgb(122, 122, 122);
 }
 
 p {
@@ -257,12 +262,28 @@ a{
 	width: auto;
 	max-width: 480px;
 	display: block;
-	margin: 30px auto 20px 5px;
+	margin: 30px auto 20px auto;
+	display: block;
 }
 
 .activity-text {
-	margin-left: 400px;
+	text-align: center;
 	position: inline;
+	margin-bottom: 70px;
+}
+
+.activity-org {
+	background-color: #f8bebf;
+}
+
+.activity-pos {
+	color: #fce5e6;
+}
+
+.activity-duties {
+	width: 30%;
+	margin: auto;
+	text-align: left;
 }
 
 #socials {
@@ -294,4 +315,10 @@ a{
 .socials-icon {
 	height: 30px;
     width: auto;
+}
+
+#footer {
+	text-align: center;
+	font-size: 12px;
+	color: rgb(179, 179, 179);
 }
