@@ -7,6 +7,8 @@
 
     --darkest-pink: #ea9a9b;
 
+	--red: #ff5252;
+
 	--pixel-bg: #ea9a9b;
 	/* ↑ Inner background border color */
 	
@@ -169,16 +171,12 @@ p {
 
 #navbar a:hover {
     text-decoration: underline;
-    color: var(--darkest-pink);
+    color: var(--red);
 }
 
 a{
     cursor: url(../images/pixil-paw-point-s.png), pointer;
 }
-/* 
-.home {
-    margin: 0;
-} */
 
 #me-photo {
 	height: 250px;
@@ -194,12 +192,38 @@ a{
 }
 
 #socials {
-    writing-mode: vertical-rl;
-    /* text-orientation: sideways; */
+	orientation: left;
 }
 
-#vertical-bar {
-    border: 1px;
+#socials ul {
+    list-style: none;
+	position: fixed;
+	left: -25px;
+	bottom: 0px;
+}
+
+#socials a {
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+/* #socials a:hover {
+    background-color: url(/images/pixil-spotify.png);
+} */
+
+#socials a img:last-child {
+	display: none;  
+}
+#socials a:hover img:last-child {
+	display: inline;  
+}
+#socials a:hover img:first-child {
+	display: none;  
+}
+
+.socials-icon {
+	height: 30px;
+    width: auto;
 }
 
 #audio {
