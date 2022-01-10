@@ -214,6 +214,7 @@ a{
 #about-text {
 	margin-left: 255px;
 	margin-right: 225px;
+	text-align: justify;
 }
 
 #gitlet {
@@ -227,9 +228,41 @@ a{
 	margin-top: 10px;
 }
 
-.projects-text {
+#ants {
+	height: 200px;
+	width: auto;
+	float: left;
+	border-radius: 10px;
+	border-color: white;
+	border-style: double;
+	border-width: 5px;
+	margin-top: 60px;
+	margin-left: -140px;
+}
+
+#gitlet-text {
 	margin-left: 170px;
 	margin-top: 60px;
+	text-align: justify;
+}
+
+#ants-text {
+	margin-left: 390px;
+	margin-top: 60px;
+	text-align: justify;
+}
+
+.activity-logo {
+	height: 200px;
+	width: auto;
+	max-width: 480px;
+	display: block;
+	margin: 30px auto 20px 5px;
+}
+
+.activity-text {
+	margin-left: 400px;
+	position: inline;
 }
 
 #socials {
