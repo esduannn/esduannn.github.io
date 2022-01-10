@@ -192,7 +192,7 @@ a{
     border: 5px dotted;
     border-radius: 35px;
 	float: left;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 #archie-photo {
@@ -202,7 +202,7 @@ a{
     border: 5px dotted;
     border-radius: 35px;
 	float: right;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 #audio-container{
@@ -214,6 +214,22 @@ a{
 #about-text {
 	margin-left: 255px;
 	margin-right: 225px;
+}
+
+#gitlet {
+	height: 130px;
+	width: auto;
+	float: left;
+	border-radius: 10px;
+	border-color: white;
+	border-style: double;
+	border-width: 5px;
+	margin-top: 10px;
+}
+
+.projects-text {
+	margin-left: 170px;
+	margin-top: 60px;
 }
 
 #socials {
