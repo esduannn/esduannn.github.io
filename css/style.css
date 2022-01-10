@@ -207,10 +207,6 @@ a{
     padding-left: 15px;
 }
 
-/* #socials a:hover {
-    background-color: url(/images/pixil-spotify.png);
-} */
-
 #socials a img:last-child {
 	display: none;  
 }
