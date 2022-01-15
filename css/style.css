@@ -233,6 +233,12 @@ a{
 	margin-top: 10px;
 }
 
+#gitlet-text {
+	margin-left: 170px;
+	margin-top: 60px;
+	text-align: justify;
+}
+
 #ants {
 	height: 200px;
 	width: auto;
@@ -242,13 +248,6 @@ a{
 	border-style: double;
 	border-width: 5px;
 	margin-top: 60px;
-	margin-left: -140px;
-}
-
-#gitlet-text {
-	margin-left: 170px;
-	margin-top: 60px;
-	text-align: justify;
 }
 
 #ants-text {
